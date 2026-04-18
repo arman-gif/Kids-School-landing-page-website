@@ -2,17 +2,98 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Quicksand, sans-serif;
+}
+
+body{
+    background: #f7f7f7;
 }
 
 /* header section start  */
 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.logo img{
+    width: 40px;
+}
+
+.nav a{
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav .active {
+    color: orange;
+}
+
+.contact-btn{
+    background: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 /* header section end */
 
 /* bannar section start */
 
+.bannar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+}
 
+.bannar-text {
+    max-width: 500px;
+}
+
+.bannar-text h1{
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.orange{
+    color: orange;
+}
+
+.blue {
+  color: #00aaff;
+}
+
+.bannar-text p{
+  margin: 20px 0;
+  color: #555;
+}
+
+.enroll-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bannar-image img{
+    width: 100%;
+}
 
 /* bannar section end */
 
