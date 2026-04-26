@@ -266,8 +266,6 @@ body{
 
 .item img {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
 }
 
 .item.large {
@@ -328,6 +326,10 @@ body{
     background: #6c63ff;
 }
 
+.item-mobile {
+    
+}
+
 .view-btn {
     padding-top: 80px;
 }
@@ -362,7 +364,7 @@ body{
     max-width: 350px;
 }
 
-.logo img {
+.logoss img {
     width: 80%;
     margin-left: -10px;
 }
@@ -429,5 +431,132 @@ body{
 
 
 /* footer section end */
+
+
+ /* mobile view  */
+
+ @media (min-width: 769px) {
+    .item-mobile {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+        background: #eee;
+        border-bottom: 2px solid orange;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .menu-icon {
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .header span {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .contact-btn {
+        display: none;
+    }
+
+    .bannar {
+        flex-direction: column-reverse;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .bannar-text h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .bannar-image img {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    /* Standard Section */
+    .standard {
+        padding: 40px 20px;
+    }
+
+    .standard-container {
+        flex-direction: column;
+    }
+
+    .standard h2 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .stories {
+        padding: 50px 20px;
+    }
+
+    .stories-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .item.large {
+        display: none;
+    }
+
+    .item img {
+        height: 200px;
+    }
+
+    .item h4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .date {
+        top: 180px;
+    }
+
+    .arrws {
+        display: none;
+    }
+
+    .standard-arrow {
+        display: none;
+    }
+
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-left,
+    .footer-mid,
+    .footer-right {
+        max-width: 100%;
+    }
+
+    .logoss img {
+        width: 200px;
+    }
+}
 
 
