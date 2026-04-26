@@ -33,18 +33,36 @@ body{
 .nav a{
     margin: 0px 15px;
     text-decoration: none;
-    color: #333;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .nav .active {
     color: orange;
+    font-weight: 700;
+}
+
+.abbb {
+    font-weight: 500;
+    color: #01ACFD;
+}
+
+.facc {
+    font-weight: 500;
+    color: #05D4DF;
+}
+
+.addd {
+    font-weight: 500;
+    color: #5D58EF;
 }
 
 .contact-btn{
     background: orange;
     color: #fff;
+    font-size: 16px;
     border: none;
-    padding: 10px 25px;
+    padding: 10px 40px;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -89,9 +107,10 @@ body{
     background: #000;
     color: #fff;
     border: none;
-    padding: 12px 25px;
+    padding: 12px 30px;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .bannar-image img{
@@ -104,6 +123,9 @@ body{
 
 .standard {
     background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding: 60px 80px;
 }
 
@@ -122,11 +144,11 @@ body{
 }
 
 .card {
-  text-align: center;
-  border-radius: 20px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
-  transition: 0.3s ease;
-  padding: 0px 50px 50px 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+    padding: 0px 50px 50px 50px;
 }
 
 .card:hover {
@@ -156,7 +178,6 @@ body{
     text-decoration: none;
     font-weight: 700;
     font-size: 15px;
-    
 }
 
 .card1 {
@@ -181,6 +202,34 @@ body{
 
 .card3 a {
     color: #8700FF;
+}
+
+.arrws {
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.standard-arrow {
+    display: inline-flex;
+    gap: 20px;
+}
+
+.arr-btn {
+    width: 60px;
+    height: 60px;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.arr-btn:hover {
+    background: darkorange;
 }
 
 
@@ -280,8 +329,17 @@ body{
 }
 
 .view-btn {
-    padding-top: 60px;
+    padding-top: 80px;
+}
 
+.viewss-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 /* our stories section end */
@@ -342,31 +400,33 @@ body{
     margin-bottom: 20px;
 }
 
-.social-icons span {
-    display: inline-block;
-    margin-right: 10px;
-    padding: 10px 12px;
-    border-radius: 4px;
-    color: white;
-    font-weight: bold;
+.social-icons i {
+    padding: 10px 10px 10px 10px;
     cursor: pointer;
+    font-size: 20px;
+    color: #fff;
 }
 
-.fb {
-    background-color: #3b5998;
+.fa-facebook {
+    background-color: #3B5998;
+    border-radius: 4px;
 }
 
-.dribbble {
-    background-color: #ea4c89;
+.fa-dribbble {
+    background-color: #EA4C89;
+    border-radius: 4px;
 }
 
-.twitter {
-    background-color: #1da1f2;
+.fa-twitter {
+    background-color: #1DA1F2;
+    border-radius: 4px;
 }
 
-.google {
-    background-color: #db4437;
+.fa-google-plus {
+    background-color: #DD4B39;
+    border-radius: 4px;
 }
+
 
 /* footer section end */
 
